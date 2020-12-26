@@ -1,0 +1,85 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+    
+}
+.container
+{
+    border: 6px solid black;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap; */
+   /* flex-flow: column wrap-reverse;*/ /*shorthand for direction and wrap */
+   /*justify-content: flex-start;*/
+    /*align-items: stretch;*/
+    /* flex-flow:wrap; */
+    align-content: flex-start;
+    height: 100vh;
+    align-items: center;
+}
+.flex-item
+{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+.item-1
+{
+    background-color: yellow;
+    order: 0;
+    /* flex-basis: 400px; sets initial width  */
+    align-self: flex-start;
+}
+
+.item-2
+{
+    background-color: rgb(44, 17, 7);
+    order: 1;
+    align-self: flex-end;
+}
+
+.item-3
+{
+    background-color: rgb(158, 55, 14);
+    order: 2;
+    /* flex-grow: 1; relative to other item  */
+    align-self: center;
+}
+
+.item-4
+{
+    background-color: rgb(97, 77, 168);
+    align-self: stretch;
+}
+
+.item-5
+{
+    background-color: rgb(135, 54, 146);
+    /* align-self: auto; takes align items value from container */
+}
+
+.item-6
+{
+    background-color: rgb(255, 0, 34);
+}
+
+.item-7
+{
+    background-color: rgb(41, 144, 148);
+}
+
+.item-8
+{
+    background-color: rgb(85, 114, 17);
+}
+
+.item-9
+{
+    background-color: rgb(43, 16, 107);
+}
